@@ -34,3 +34,9 @@ kubectl apply -f ambassador_tour/02_ambassador-svc-nodeport.yaml
 kubectl apply -f ambassador_tour/03_tour.yaml
 ```
 
+## Clean-up after playing
+
+```sh
+unset KUBECONFIG
+kind delete cluster
+```
