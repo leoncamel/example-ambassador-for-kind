@@ -1,6 +1,10 @@
 
 # A simple example for ambassador by `kind`
 
+## Summary
+
+This will expose port `30080~30085` on `localhost`.
+
 ## Create `kind` cluster
 
 ```sh
