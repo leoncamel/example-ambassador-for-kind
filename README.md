@@ -5,6 +5,11 @@
 
 This will expose port `30080~30085` on `localhost`.
 
+|       |                  |                                            |
+| ---   | --               | --                                         |
+| 30080 | tour service     |                                            |
+| 30085 | ambassador admin | http://localhost:30085/ambassador/v0/diag/ |
+
 ## Create `kind` cluster
 
 ```sh
